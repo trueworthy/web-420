@@ -9,6 +9,7 @@ mongoose.Promise = require('bluebird');
 
 
 var index = require('./routes/index');
+var apiCatalog = require('../api-gateway/routes/api-catalog');
 
 var app = express();
 
